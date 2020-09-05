@@ -255,6 +255,7 @@ public class Home extends javax.swing.JFrame {
 
         pbMemoria.setFont(new java.awt.Font("Segoe UI Light", 2, 16)); // NOI18N
         pbMemoria.setForeground(new java.awt.Color(192, 12, 39));
+        pbMemoria.setMaximum(16);
         pbMemoria.setMinimum(1);
         pbMemoria.setBorderPainted(false);
         pbMemoria.setFocusable(false);
@@ -267,6 +268,7 @@ public class Home extends javax.swing.JFrame {
 
         pbDisco.setFont(new java.awt.Font("Segoe UI Light", 2, 16)); // NOI18N
         pbDisco.setForeground(new java.awt.Color(192, 12, 39));
+        pbDisco.setMaximum(500);
         pbDisco.setMinimum(1);
         pbDisco.setBorderPainted(false);
         pbDisco.setFocusable(false);
@@ -278,7 +280,7 @@ public class Home extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(19, 19, 19)
+                        .addGap(18, 18, 18)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(pbDisco, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addGroup(jPanel1Layout.createSequentialGroup()
