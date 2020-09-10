@@ -262,7 +262,6 @@ public class Home extends javax.swing.JFrame {
 
         pbCpu.setFont(new java.awt.Font("Segoe UI Light", 2, 16)); // NOI18N
         pbCpu.setForeground(new java.awt.Color(192, 12, 39));
-        pbCpu.setMinimum(1);
         pbCpu.setBorderPainted(false);
         pbCpu.setFocusable(false);
 
